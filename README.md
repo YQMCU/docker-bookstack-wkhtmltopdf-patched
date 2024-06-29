@@ -57,6 +57,16 @@ docker compose -f dist/book.yml up -d
 cp bin/env.sample dist/bookstack_app_data/www/.env
 ```
 
+## 访问web
 
+默认的执行 `wget http://127.0.0.1:6875/login` 正常会有返回
+
+在浏览器中将127.0.0.1改成部署服务器的IP即可访问
+
+若是在虚拟机中部署，需要修改为虚拟机的IP或者网络端口转发的IP端口来访问
+
+相应的需要修改.env参数中的 APP_URL 参数做出适配
+
+若能正常访问了，登陆账号 admin@admin.com 密码 password ，部署后及时修改密码
 
 
