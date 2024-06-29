@@ -67,6 +67,8 @@ cp bin/env.sample dist/bookstack_app_data/www/.env
 
 相应的需要修改.env参数中的 APP_URL 参数做出适配
 
-若能正常访问了，登陆账号 admin@admin.com 密码 password ，部署后及时修改密码
+以 http://127.0.0.1:6875 为例，若在浏览器中能正常访问了，
+
+登陆账号 admin@admin.com 密码 password ，部署后及时修改密码
 
 
