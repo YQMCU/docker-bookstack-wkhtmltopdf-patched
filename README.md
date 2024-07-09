@@ -37,7 +37,7 @@ docker pull lscr.io/linuxserver/mariadb
 
 ```bash
 
-docker build -f Dockfile -t bookstack-wkhtmltopdf-patched-qt:v24.05.2-alpine-3.20 . 
+docker build -f Dockerfile -t bookstack-wkhtmltopdf-patched-qt:v24.05.2-alpine-3.20 . 
 
 ```
 
